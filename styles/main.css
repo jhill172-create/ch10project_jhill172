@@ -1,0 +1,62 @@
+/* Main page styles (point 16) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+/* Form input and textarea styles (point 17) */
+form div {
+    margin-bottom: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+input[type="submit"] {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Confirmation output container (point 17) */
+.output {
+    margin-top: 18px;
+    padding: 12px;
+    border-radius: 6px;
+    max-width: 700px;
+}
+
+/* Error and success classes (point 18) */
+.error {
+    color: #b71c1c; /* red text for errors */
+    background-color: #fdecea;
+    border: 1px solid #f5c6cb;
+}
+
+.success {
+    color: #1b5e20; /* green text for success */
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+}
+
+/* Extra: style submitted-data area */
+.submitted-data {
+    margin-top: 12px;
+    padding: 12px;
+    border: 1px dashed #ddd;
+    max-width: 700px;
+    background: #fff;
+}
